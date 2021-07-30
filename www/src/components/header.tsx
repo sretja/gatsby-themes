@@ -31,13 +31,13 @@ const Header = () => {
               sx={{ height: 12, width: 1, backgroundColor: `primary`, borderRadius: `full`, mx: 3 }}
             />
             <Flex sx={{ flexDirection: `column` }}>
-              <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}>Gatsby Themes</Box>
-              <Box sx={{ color: `dark` }}>by LekoArts</Box>
+              <Box sx={{ fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}>tala.digital</Box>
+              <Box sx={{ color: `dark` }}>Web Development</Box>
             </Flex>
           </Flex>
           <Flex sx={{ mt: [4, 0], alignItems: `center` }}>
-            <a href="https://github.com/LekoArts/gatsby-themes" sx={{ variant: `buttons.secondary` }}>
-              GitHub
+            <a href="https://booking.tala.digital" sx={{ variant: `buttons.secondary` }}>
+              Contact
             </a>
             <button
               type="button"
