@@ -1,8 +1,8 @@
-- title: "Emma"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emma"
-  preview: "https://emma.lekoarts.de"
-  description: "Clean portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images."
-  image: "./emma.png"
+- title: "AM Parketi"
+  url: "https://am-parketi.com"
+  preview: "https://am-parketi.com"
+  description: "Clean portfolio landing page with custom booking form and basic CRM implementation for a small familiy business in Croatia."
+  image: "./AM Parketi.png"
   shapes:
     - type: "circle"
       color: "green"
@@ -16,11 +16,11 @@
       xOffset: ["50px"]
       yOffset: ["-60px"]
       opacity: 1
-- title: "Status Dashboard"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-status-dashboard"
-  preview: "https://status.lekoarts.de"
-  description: "Show the live statuses of your Netlify and CircleCI builds on your website by using the customizable components."
-  image: "./status-dashboard.png"
+- title: "Duet Protocol"
+  url: "https://duet.finance"
+  preview: "https://duet.finance"
+  description: "React Website with a blog and headless CMS for a new Blockchain Protocol."
+  image: "./Duet.png"
   shapes:
     - type: "circle"
       color: "orange"
@@ -34,11 +34,11 @@
       xOffset: ["-40px"]
       yOffset: ["-60px"]
       opacity: 1
-- title: "Cara"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara"
-  preview: "https://cara.lekoarts.de"
-  description: "Playful and Colorful One-Page portfolio featuring Parallax effects and animations."
-  image: "./cara.jpg"
+- title: "Erfolgskompass"
+  url: "https://erfolgskompass.ch"
+  preview: "https://erfolgskompass.ch"
+  description: "Design, development, marketing and workflow automation integration for one of the best Career Coaches in Switzerland"
+  image: "./Erfolgskompass.png"
   shapes:
     - type: "donut"
       color: "blue"
@@ -52,11 +52,11 @@
       xOffset: ["140px"]
       yOffset: ["-40px", "-70px"]
       opacity: 1
-- title: "Specimens"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-specimens"
-  preview: "https://specimens.lekoarts.de"
-  description: "Leverage the wide variety of powerful React components to build your design system."
-  image: "./specimens.jpg"
+- title: "First Round Management"
+  url: "https://prva-runda.webflow.io"
+  preview: "https://prva-runda.webflow.io"
+  description: "Full website redesign & advanced eCommerce implementation for Full-Service athletes career management agency, FRM."
+  image: "./FRM.png"
   shapes:
     - type: "circle"
       color: "red"
@@ -76,11 +76,11 @@
       xOffset: ["300px", "600px", "280px", "400px"]
       yOffset: ["-40px", "-60px"]
       opacity: 1
-- title: "Emilia"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-emilia"
-  preview: "https://emilia.lekoarts.de"
-  description: "Minimalistic portfolio/photography site with masonry grid, page transitions and big images."
-  image: "./emilia.png"
+- title: "First Round Barbers"
+  url: "https://1stroundbarbers.com"
+  preview: "https://1stroundbarbers.com"
+  description: "Design, development and custom booking solution for a Exclusive Members Only Barber Shop in Miami."
+  image: "./First Round Barbers.png"
   shapes:
     - type: "circle"
       color: "blue"
@@ -94,11 +94,11 @@
       xOffset: ["350px", "350px", "320px", "400px"]
       yOffset: ["-40px", "-70px"]
       opacity: 1
-- title: "GraphQL Playground"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-graphql-playground"
-  preview: "https://gatsby-theme-graphql-playground.netlify.com"
-  description: "Write queries in MDX to create an interactive GraphQL Playground to showcase the power of GraphQL."
-  image: "./graphql-playground.png"
+- title: "MMA Fighter"
+  url: "https://mma-fighter.webflow.io"
+  preview: "https://mma-fighter.webflow.io"
+  description: "Landing page system with multiple templates and custom marketing automation setup for FRM to recruit new athletes."
+  image: "./MMA Fighter.png"
   shapes:
     - type: "circle"
       color: "black"
@@ -112,11 +112,11 @@
       xOffset: ["-40px"]
       yOffset: ["-60px"]
       opacity: 1
-- title: "Minimal Blog"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-minimal-blog"
-  preview: "https://minimal-blog.lekoarts.de"
-  description: "Typography driven, feature-rich blogging theme with minimal aesthetics."
-  image: "./minimal-blog.png"
+- title: "Raymond"
+  url: "https://emil-personalization.webflow.io"
+  preview: "https://emil-personalization.webflow.io"
+  description: "For Raymond Cold Email Personalization we designed and developed the Website, and also took care of their performance marketing."
+  image: "./Raymond.png"
   shapes:
     - type: "donut"
       color: "purple"
@@ -124,11 +124,11 @@
       xOffset: ["-40px", "-60px"]
       yOffset: ["-40px", "-60px"]
       opacity: 1
-- title: "Styleguide"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-styleguide"
-  preview: "https://theme-ui-styleguide.netlify.com"
-  description: "Instantly create a styleguide page based on your Theme UI configuration. Zero-config."
-  image: "./styleguide.png"
+- title: "Rooted Singing"
+  url: "https://rootedsinging.ch"
+  preview: "https://rootedsinging.ch"
+  description: "Branding, design, MVP and now the WebApp. For Rooted singing we are the go to for everything related digital."
+  image: "./Rooted Singing.png"
   shapes:
     - type: "circle"
       color: "pink"
@@ -136,11 +136,11 @@
       xOffset: ["-40px", "-60px"]
       yOffset: ["-40px", "-60px"]
       opacity: 1
-- title: "Jodie"
-  url: "https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-jodie"
-  preview: "https://jodie.lekoarts.de"
-  description: "Image-heavy photography portfolio with colorful accents & customizable pages."
-  image: "./jodie.png"
+- title: "Social Connect"
+  url: "https://startup-social-connect.webflow.io"
+  preview: "https://startup-social-connect.webflow.io"
+  description: "Branding, design, LPs, a new WebApp in the works. All in less than 3 months."
+  image: "./Social Connect.jpeg"
   shapes:
     - type: "circle"
       color: "blue"

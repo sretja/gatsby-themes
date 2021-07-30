@@ -181,19 +181,19 @@ const Listing = () => {
               <Themed.h1 as="h3">{theme.title}</Themed.h1>
               <Themed.p>{theme.description}</Themed.p>
               <a href={theme.url} sx={{ variant: `buttons.primary`, mt: 3, ...buttonStyles }}>
-                Get the Theme
+                Visit Website
               </a>
             </Flex>
           </Box>
         )
       })}
       <p sx={{ mt: 6, fontSize: [1, 2, 2, 3], textAlign: `center` }}>
-        <span sx={{ fontWeight: `bold` }}>More Themes are coming soon ...</span> <br /> In the meantime you can have a
-        look at my already existing{` `}
-        <Themed.a href="https://github.com/LekoArts?utf8=%E2%9C%93&tab=repositories&q=gatsby&type=public&language=">
-          open source Gatsby projects
-        </Themed.a>
-        !
+        <span sx={{ fontWeight: `bold` }}>We are ridiculously client-focused</span> <br /> We know how many nights
+        you've spent rehearsing your speech, or fighting with a tiny detail <br />
+        that probably no one is going to notice. We've been there, we know the struggle. We build products close to our
+        hearts, and put everything we’ve got into them, so the final products we deliver speak for themselves. <br />
+        <br />
+        Our workflow is not standard, and neither are we -- nor the brands we help create. !
       </p>
     </Container>
   )

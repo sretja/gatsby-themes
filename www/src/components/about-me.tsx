@@ -14,7 +14,7 @@ const AboutMe = () => {
     <section data-name="about-me" sx={{ position: `relative`, py: 6 }}>
       <Container>
         <div sx={{ maxWidth: `760px` }}>
-          <Themed.h1 as="h2">About Me</Themed.h1>
+          <Themed.h1 as="h2">About Us</Themed.h1>
           <Themed.p>
             Hi{` `}
             <span role="img" aria-label="Hand Wave">
