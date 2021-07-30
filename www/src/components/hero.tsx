@@ -43,10 +43,10 @@ const Hero = () => {
         <Flex sx={{ justifyContent: `space-between` }}>
           <Box>
             <Box sx={{ maxWidth: `490px` }}>
-              <Themed.h1>Free & Open Source Gatsby Themes</Themed.h1>
+              <Themed.h1>We are YOUR Web Design & Development Experts</Themed.h1>
               <Themed.p sx={{ color: `dark`, mt: 3, mb: 4 }}>
-                Get <span sx={{ fontWeight: `bold` }}>high-quality</span> and{` `}
-                <span sx={{ fontWeight: `bold` }}>customizable</span> Gatsby themes to quickly bootstrap your website
+                Creating <span sx={{ fontWeight: `bold` }}>amazing websites</span> to help{` `}
+                <span sx={{ fontWeight: `bold` }}>startups and enterprises</span> connect with their customers, increasing conversions and enable growth
               </Themed.p>
             </Box>
             <Box>
