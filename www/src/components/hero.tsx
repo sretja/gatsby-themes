@@ -46,45 +46,13 @@ const Hero = () => {
               <Themed.h1>We are YOUR Web Design & Development Experts</Themed.h1>
               <Themed.p sx={{ color: `dark`, mt: 3, mb: 4 }}>
                 Creating <span sx={{ fontWeight: `bold` }}>amazing websites</span> to help{` `}
-                <span sx={{ fontWeight: `bold` }}>startups and enterprises</span> connect with their customers, increasing conversions and enable growth
+                <span sx={{ fontWeight: `bold` }}>startups and enterprises</span> connect with their customers,
+                increasing conversions and enable growth
               </Themed.p>
             </Box>
             <Box>
-              <a
-                href="https://github.com/LekoArts/gatsby-themes"
-                rel="noopener noreferrer"
-                target="_blank"
-                sx={{
-                  variant: `buttons.heroStars`,
-                  display: `inline-flex`,
-                  alignItems: `center`,
-                }}
-              >
-                <div
-                  sx={{
-                    display: `inline-flex`,
-                    svg: { width: `20px`, height: `auto`, mr: 2, color: `indigo.2` },
-                    px: 3,
-                    py: 1,
-                    backgroundColor: `primary`,
-                    borderTopLeftRadius: `default`,
-                    borderBottomLeftRadius: `default`,
-                    alignItems: `center`,
-                  }}
-                >
-                  <Star /> Star
-                </div>
-                <div
-                  sx={{
-                    px: 3,
-                    py: 1,
-                    backgroundColor: `starsCount`,
-                    borderTopRightRadius: `default`,
-                    borderBottomRightRadius: `default`,
-                  }}
-                >
-                  {starsCount || `0`}
-                </div>
+              <a href="https://booking.tala.digital" sx={{ variant: `buttons.primary` }}>
+                Let's tal
               </a>
             </Box>
           </Box>
