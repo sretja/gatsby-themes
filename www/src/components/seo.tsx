@@ -92,7 +92,7 @@ const SEO = ({
     "@type": `Organization`,
     address: {
       "@type": `PostalAddress`,
-      addressCountry: `DE`,
+      addressCountry: `HR`,
       addressLocality: ``,
       postalCode: ``,
     },
@@ -100,10 +100,10 @@ const SEO = ({
     alternateName: defaultTitle,
     description: defaultDescription,
     url: siteUrl,
-    email: `hello@lekoarts.de`,
-    founder: `LekoArts`,
-    foundingDate: `2017-12-08`,
-    foundingLocation: `Germany`,
+    email: `igor@tala.digital`,
+    founder: `tala.digital`,
+    foundingDate: `2020-12-08`,
+    foundingLocation: `Croatia`,
     image: {
       "@type": `ImageObject`,
       url: `${siteUrl}/social/avatar.png`,
@@ -116,14 +116,7 @@ const SEO = ({
       height: `60`,
       width: `60`,
     },
-    sameAs: [
-      `https://github.com/LekoArts`,
-      `https://www.instagram.com/lekoarts.de`,
-      `https://www.behance.net/lekoarts`,
-      `https://dribbble.com/LekoArts`,
-      `https://youtube.de/LekoArtsDE`,
-      `https://twitter.com/lekoarts_de`,
-    ],
+    sameAs: [`https://github.com/sretja`, `https://www.instagram.com/tala_digital`, `https://twitter.com/lekoarts_de`],
   })
 
   const schemaNewsletter = {
@@ -208,8 +201,8 @@ const SEO = ({
       <meta name="twitter:creator" content={author} />
       <meta name="twitter:label1" value="Support" />
       <meta name="twitter:label2" value="Author's Homepage" />
-      <meta name="twitter:data1" value="https://www.patreon.com/lekoarts" />
-      <meta name="twitter:data2" value="https://www.lekoarts.de/en" />
+      <meta name="twitter:data1" value="https://www.patreon.com/tala_digital" />
+      <meta name="twitter:data2" value="https://tala.digital" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

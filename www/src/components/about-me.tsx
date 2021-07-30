@@ -14,40 +14,26 @@ const AboutMe = () => {
     <section data-name="about-me" sx={{ position: `relative`, py: 6 }}>
       <Container>
         <div sx={{ maxWidth: `760px` }}>
-          <Themed.h1 as="h2">About Us</Themed.h1>
+          <Themed.h1 as="h2">WHO WE ARE</Themed.h1>
           <Themed.p>
             Hi{` `}
             <span role="img" aria-label="Hand Wave">
               👋
             </span>
           </Themed.p>
+          <Themed.p>tala.digital is unconventional at heart</Themed.p>
           <Themed.p>
-            I’m Lennart — also known as LekoArts — and I’m a self-taught and passionate graphic designer & front-end
-            developer from Germany.
+            tala.digital is a Croatian based design-led technology agency. We create digital products, platforms, and
+            divergent eCommerce experiences that differentiate brands from the noise.
           </Themed.p>
           <Themed.p>
-            You can find me on my <Themed.a href="https://www.lekoarts.de/en">homepage</Themed.a> where I blog about
-            front-end development and design. I also like to create 3D art or other experiments which you can find on
-            {` `}
-            <Themed.a href="https://www.instagram.com/lekoarts.de">Instagram</Themed.a>.
+            Our digital strategists, creatives, and technologists work lockstep with our clients in creating digital
+            experiences that speaks to cultural relevancy. Whereas most merely design and build, we architect digital
+            experiences that shape how brands engage with their customers.
           </Themed.p>
           <Themed.p>
-            I started using Gatsby in its early stages and since then created a bunch of starters aimed at designers &
-            photographers. I myself learned so much with free and open source content that I wanted to contribute back.
-            Since the starters are a huge success it’s only logical to convert those to Gatsby themes! Of course more
-            themes will follow in the future. My Gatsby themes are created with{` `}
-            <Themed.a href="https://theme-ui.com/">Theme UI</Themed.a> — which makes them really customizable{` `}
-            <span role="img" aria-label="Party Popper">
-              🎉
-            </span>
-            .
-          </Themed.p>
-          <Themed.p>
-            If you're interested in how I built this site you should definitely read my blogpost{` `}
-            <Themed.a href="https://www.lekoarts.de/en/blog/how-i-used-theme-ui-to-build-my-gatsby-themes-library">
-              "How I used Theme UI to build my Gatsby Themes library"
-            </Themed.a>
-            .
+            We’re building a human-first business rooted in purpose and impact for a greater good - working with brands
+            that share the same values.
           </Themed.p>
         </div>
       </Container>
@@ -112,15 +98,12 @@ const AboutMe = () => {
               textShadow: `0 1px 1px rgba(0, 0, 0, 0.2)`,
             }}
           >
-            Do you want to support me?
+            Got a project? Let's talk!
           </h3>
           <Themed.p sx={{ textShadow: `0 1px 1px rgba(0, 0, 0, 0.2)` }}>
-            I'm grateful for every form of support: Share this website with your friends & colleagues, buy me a tea
-            ('cause I don't drink coffee), or consider supporting me on Patreon or GitHub Sponsors. The latter will
-            allow me to allocate more time to maintaining these themes. Thanks for using my themes!{` `}
-            <span role="img" aria-label="Smile">
-              😊
-            </span>
+            We go to 💯 for our clients. Get in touch to share the good news about your next project, or book a time to
+            chat with us here. Get in touch for creative web design, Jamstack and Webflow development, SEO, business
+            strategy, and content creation services.
           </Themed.p>
           <Flex
             sx={{
@@ -132,14 +115,8 @@ const AboutMe = () => {
               flexDirection: [`column`, `row`],
             }}
           >
-            <a href="https://github.com/sponsors/LekoArts" sx={{ variant: `buttons.white` }}>
-              GitHub Sponsors
-            </a>
-            <a href="https://www.patreon.com/lekoarts" sx={{ variant: `buttons.white` }}>
-              Patreon
-            </a>
-            <a href="https://ko-fi.com/N4N0W91I" sx={{ variant: `buttons.white` }}>
-              Buy me a tea
+            <a href="https://booking.tala.digital" sx={{ variant: `buttons.white` }}>
+              Let's talk
             </a>
           </Flex>
         </Box>

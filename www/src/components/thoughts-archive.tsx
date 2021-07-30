@@ -64,7 +64,9 @@ const ThoughtsArchive = () => {
             <RSS />
           </a>
         </div>
-        <Themed.p>Read news or thoughts about this project & Gatsby themes in general!</Themed.p>
+        <Themed.p>
+          Read news or thoughts about web design, development, Jamstack, Webflow, automation and all things digital
+        </Themed.p>
         <div sx={{ my: 5 }}>
           {thoughts.nodes.map((entry, index) => (
             <div key={`${entry.title}-${entry.date}`} sx={{ mb: [4], position: `relative` }}>

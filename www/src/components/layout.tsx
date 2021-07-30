@@ -59,19 +59,16 @@ const Layout = ({ children, className = ``, thought = false }: LayoutProps) => {
       </Box>
       <Box as="footer" variant="layout.footer">
         &copy; {new Date().getFullYear()} by{` `}
-        <Themed.a href="https://www.lekoarts.de?utm_source=gatsby-themes&utm_medium=www">LekoArts</Themed.a>. All rights
-        reserved.
+        <Themed.a href="https://tala.digital">tala.digital</Themed.a>. All rights reserved.
         {` `}
-        <Themed.a rel="nofollow" href="https://www.lekoarts.de/legal-notice">
+        <Themed.a rel="nofollow" href="https://tala.digital/legal-notice">
           Legal Notice
         </Themed.a>
         .{` `}
-        <Themed.a rel="nofollow" href="https://www.lekoarts.de/privacy-policy">
+        <Themed.a rel="nofollow" href="https://tala.digital/privacy-policy">
           Privacy Policy
         </Themed.a>
         .<br />
-        This website is open source on{` `}
-        <Themed.a href="https://github.com/LekoArts/gatsby-themes/tree/master/www">GitHub</Themed.a>.
       </Box>
     </>
   )
