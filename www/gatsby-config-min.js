@@ -1,5 +1,4 @@
 require(`dotenv`).config()
-
 const thoughtsFeed = require(`./src/utils/feed`)
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
@@ -16,32 +15,17 @@ module.exports = {
     image: `/banner.png`,
     author: `@igor`,
   },
-  flags: {
-    DEV_SSR: false,
-    FAST_DEV: true,
-  },
+  flags: { DEV_SSR: !1, FAST_DEV: !0 },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/data`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `thoughts`,
-        path: `${__dirname}/thoughts`,
-      },
-    },
+    { resolve: `gatsby-source-filesystem`, options: { name: `data`, path: `${__dirname}/data` } },
+    { resolve: `gatsby-source-filesystem`, options: { name: `thoughts`, path: `${__dirname}/thoughts` } },
     {
       resolve: `gatsby-omni-font-loader`,
       options: {
-        enableListener: true,
+        enableListener: !0,
         preconnect: [`https://fonts.gstatic.com`],
         interval: 300,
-        timeout: 30000,
+        timeout: 3e4,
         web: [
           {
             name: `IBM Plex Sans`,
@@ -55,37 +39,22 @@ module.exports = {
       options: {
         token: githubToken,
         variables: {},
-        graphQLQuery: `
-          query {
-            repository(owner: "sretja", name: "gatsby-themes") {
-              stargazers {
-                totalCount
-              }
-            }
-          }
-        `,
+        graphQLQuery: `\n          query {\n            repository(owner: "sretja", name: "gatsby-themes") {\n              stargazers {\n                totalCount\n              }\n            }\n          }\n        `,
       },
     },
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
+      options: { trackingId: process.env.GOOGLE_ANALYTICS_ID },
     },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        lessBabel: true,
+        lessBabel: !0,
         gatsbyRemarkPlugins: [`gatsby-remark-autolink-headers`, `gatsby-remark-smartypants`],
         plugins: [`gatsby-remark-autolink-headers`, `gatsby-remark-smartypants`],
       },
     },
-    {
-      resolve: `gatsby-transformer-yaml`,
-      options: {
-        typeName: `Themes`,
-      },
-    },
+    { resolve: `gatsby-transformer-yaml`, options: { typeName: `Themes` } },
     `gatsby-plugin-image`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sitemap`,
@@ -93,10 +62,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-theme-ui`,
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: thoughtsFeed,
-    },
+    { resolve: `gatsby-plugin-feed`, options: thoughtsFeed },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -108,16 +74,8 @@ module.exports = {
         theme_color: `#5A67D8`,
         display: `standalone`,
         icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
+          { src: `/android-chrome-192x192.png`, sizes: `192x192`, type: `image/png` },
+          { src: `/android-chrome-512x512.png`, sizes: `512x512`, type: `image/png` },
         ],
       },
     },
@@ -125,11 +83,7 @@ module.exports = {
     `gatsby-plugin-netlify`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
-      options: {
-        analyzerMode: `static`,
-        reportFilename: `_bundle.html`,
-        openAnalyzer: false,
-      },
+      options: { analyzerMode: `static`, reportFilename: `_bundle.html`, openAnalyzer: !1 },
     },
   ].filter(Boolean),
 }
