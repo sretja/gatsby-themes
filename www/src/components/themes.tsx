@@ -30,7 +30,7 @@ const Themes = () => {
             color: isStrange ? `#000114` : `light`,
           }}
         >
-          Themes
+          Portfolio
         </h2>
         <Curved sx={{ position: `absolute`, bottom: `-1px`, left: 0, right: 0 }} />
       </div>
