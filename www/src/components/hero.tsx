@@ -52,7 +52,7 @@ const Hero = () => {
             </Box>
             <Box>
               <a href="https://booking.tala.digital" sx={{ variant: `buttons.primary` }}>
-                Let's tal
+                Let's talk
               </a>
             </Box>
           </Box>
