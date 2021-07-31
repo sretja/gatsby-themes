@@ -115,7 +115,7 @@ const AboutMe = () => {
               flexDirection: [`column`, `row`],
             }}
           >
-            <a href="https://booking.tala.digital" sx={{ variant: `buttons.white` }}>
+            <a href="https://booking.mononoke.io" sx={{ variant: `buttons.white` }}>
               Let's talk
             </a>
           </Flex>
