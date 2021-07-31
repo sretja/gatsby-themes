@@ -21,7 +21,7 @@ const Header = () => {
             <a
               aria-label="Link to the theme creator's website"
               sx={{ color: `text`, "&:hover,&:focus": { color: `primary`, boxShadow: `none` } }}
-              href="http://www.lekoarts.de?utm_source=gatsby-themes-www"
+              href="https://tala.digital"
             >
               <Logo sx={{ width: 12, height: 12 }} />
             </a>
@@ -36,7 +36,7 @@ const Header = () => {
             </Flex>
           </Flex>
           <Flex sx={{ mt: [4, 0], alignItems: `center` }}>
-            <a href="https://booking.tala.digital" sx={{ variant: `buttons.secondary` }}>
+            <a href="https://booking.mononoke.io" sx={{ variant: `buttons.secondary` }}>
               Contact
             </a>
             <button
